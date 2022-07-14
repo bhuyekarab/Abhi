@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-13T21:51:15 IST" name="Default suite" finished-at="2022-07-13T21:51:36 IST" duration-ms="21671">
+    <groups>
+    </groups>
+    <test started-at="2022-07-13T21:51:15 IST" name="Default test" finished-at="2022-07-13T21:51:36 IST" duration-ms="21671">
+      <class name="test.FbTest">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:15 IST" name="createReport" finished-at="2022-07-13T21:51:15 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:15 IST" name="openChrome" finished-at="2022-07-13T21:51:21 IST" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="abhi()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:21 IST" name="abhi" finished-at="2022-07-13T21:51:21 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abhi -->
+        <test-method is-config="true" signature="captureResults(org.testng.ITestResult)[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:21 IST" name="captureResults" finished-at="2022-07-13T21:51:21 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=abhi status=SUCCESS method=FbTest.abhi()[pri:0, instance:test.FbTest@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResults -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:22 IST" name="openChrome" finished-at="2022-07-13T21:51:25 IST" duration-ms="3868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="login()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:25 IST" name="login" finished-at="2022-07-13T21:51:26 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="captureResults(org.testng.ITestResult)[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:26 IST" name="captureResults" finished-at="2022-07-13T21:51:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FbTest.login()[pri:0, instance:test.FbTest@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResults -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:26 IST" name="openChrome" finished-at="2022-07-13T21:51:30 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="loginWithOnlyUser()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:30 IST" name="loginWithOnlyUser" finished-at="2022-07-13T21:51:31 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithOnlyUser -->
+        <test-method is-config="true" signature="captureResults(org.testng.ITestResult)[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:31 IST" name="captureResults" finished-at="2022-07-13T21:51:31 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithOnlyUser status=SUCCESS method=FbTest.loginWithOnlyUser()[pri:0, instance:test.FbTest@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResults -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:31 IST" name="openChrome" finished-at="2022-07-13T21:51:36 IST" duration-ms="5547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="vishal()[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:36 IST" name="vishal" finished-at="2022-07-13T21:51:36 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vishal -->
+        <test-method is-config="true" signature="captureResults(org.testng.ITestResult)[pri:0, instance:test.FbTest@1fa268de]" started-at="2022-07-13T21:51:36 IST" name="captureResults" finished-at="2022-07-13T21:51:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vishal status=SUCCESS method=FbTest.vishal()[pri:0, instance:test.FbTest@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResults -->
+      </class> <!-- test.FbTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
